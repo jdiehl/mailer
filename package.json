@@ -1,0 +1,21 @@
+{
+  "name": "mailer",
+  "version": "1.0.0",
+  "description": "Tool to send mass emails",
+  "main": "mailer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mailer": "./mailer.js"
+  },
+  "author": "Jonathan Diehl",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.0.1",
+    "fast-csv": "^2.1.0",
+    "marked": "^0.4.0",
+    "nodemailer": "^4.6.5",
+    "xml2js": "^0.4.17"
+  }
+}
