@@ -12,10 +12,9 @@
   "author": "Jonathan Diehl",
   "license": "MIT",
   "dependencies": {
-    "async": "^2.0.1",
-    "fast-csv": "^2.1.0",
-    "marked": "^0.4.0",
-    "nodemailer": "^4.6.5",
-    "xml2js": "^0.4.17"
+    "async": "^3.2.0",
+    "fast-csv": "^4.1.1",
+    "marked": "^0.8.0",
+    "nodemailer": "^6.4.3"
   }
 }
