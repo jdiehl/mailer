@@ -7,11 +7,7 @@ const nodemailer = require('nodemailer')
 
 const { MAILER_HOST, MAILER_FROM } = process.env
 
-const mail = nodemailer.createTransport({
-  host: MAILER_HOST,
-  pool: true,
-  maxConnections: 1
-})
+const mail = nodemailer.createTransport(MAILER_HOST)
 
 function loadEmail(file) {
   const input = fs.readFileSync(file).toString()
